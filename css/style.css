@@ -1,6 +1,41 @@
+/* Utility CSS */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+/* /Utility CSS */
 
+/* Shoes */
+.deals{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    color: white;
+    background-repeat: no-repeat;
+    font-size: 80px;
+    text-align: center;
+}
+
+.shoes{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#differente{
+    background-color: red;
+}
+
+#tommyhilfiger{
+    background-color: green;
+}
+
+#converse{
+    background-color: yellow;
+}
+/* /Shoes */
